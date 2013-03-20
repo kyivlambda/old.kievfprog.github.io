@@ -1,4 +1,4 @@
-levi9.github.com
+Levi9
 ================
 
-Levi9 events site
+[levi9.github.com](http://levi9.github.com)
