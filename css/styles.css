@@ -55,7 +55,7 @@ footer p{
 }
 
 .brand{
-  color: #6cc1ea !important;
+  color: #08c !important;
 }
 
 .header .feedback{
@@ -83,24 +83,14 @@ section {
   font-size: 54px;
 }
 */
-.facebook, .twitter {
-  background: url('../img/icons.png') no-repeat;
+.facebook {
+  background: url('../img/facebook_icon.jpg') no-repeat;
   display: inline-block;
+  width: 32px;
+  height: 32px;
 }
 
 .social {
   float: left;
-  padding: 9px 15px 3px 15px;
-}
-
-.social .facebook {
-  background-position: 0 -401px;
-  width: 12px;
-  height: 24px;
-}
-
-.social .twitter {
-  background-position: 0 -348px;
-  width: 24px;
-  height: 24px;
+  padding: 5px 5px 0 0;
 }
