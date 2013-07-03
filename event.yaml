@@ -1,0 +1,24 @@
+
+
+event: kievfprog
+date: 3 августа 2013
+
+facebook: https://www.facebook.com/groups/110675885697387
+twitter: '#kievfprog'
+rsvp:
+
+text: ololo
+streamurl: 1
+
+talks:
+  - speaker: '@true_droid'
+    talk: Elixir
+  - speaker: '@5HT'
+    talk: Erlang PaaS
+  - speaker: '@kachayev'
+    talk: CRDT
+
+venue: Ciklum SkyPoint
+venue-address: Киев, Амосова 12, 20-ый этаж
+
+copyright: 2013 @darkproger
