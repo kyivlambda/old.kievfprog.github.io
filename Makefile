@@ -1,4 +1,4 @@
 
 render: index.html
-%.html: %.mustache
+%.html: %.mustache event.yaml
 	./render.py event.yaml < $< > $@
