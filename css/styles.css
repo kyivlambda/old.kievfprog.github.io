@@ -19,10 +19,14 @@
 
 a.anchor{display: block; position: relative; top: -50px; visibility: hidden;}
 
+.page-header {
+	margin: 0;
+}
+
 #slide {
   min-width: 100%;
   overflow: hidden;
-  height: 440px;
+  height: 300px;
   background: url(../img/slide.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -51,7 +55,7 @@ footer p{
 }
 
 .brand, .wrapper > h1, .wrapper > h3{
-  font-family: 'Lobster', cursive;
+  font-family: monospace;
 }
 
 .brand{

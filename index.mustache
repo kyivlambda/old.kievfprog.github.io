@@ -1,0 +1,116 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>  <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>  <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]> <html class="no-js" lang="en">       <![endif]-->
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>kievfprog</title>
+<meta name="description" content="{{ event }}">
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="css/styles.css">
+<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="brand" href="#registration"><strong>{{ event }}</strong></a>
+            <a href="{{ ical }}" class="btn"><i class="icon-calendar"></i></a> 
+            <!--
+            <ul class="nav" id="main-menu-left">
+                <li><a href="#agenda">Доклады</a></li>
+                <li><a href="#info">Место проведения</a></li>
+            </ul>
+            -->
+            <div class="pull-right">
+                <a href="{{ facebook }}" class="social"><i class="facebook"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="slide">
+    <div class="container">
+        <div class="wrapper" id="registration">
+            <h1>{{ event }}</h1>
+            <h3>{{ subtitle }} </h3>
+            <br/>
+            <p><a href="{{ rsvp }}" class="btn btn-primary btn-large">Регистрация</a>
+                <a href="{{ twitter }}" class="btn btn-primary btn-large">#kievfprog</a>
+            </p>
+            <!-- <iframe width="100%" height="400" src="{{ streamurl }}" scrolling="no" frameborder="0" style="border: 0px none transparent;"></iframe> -->
+        </div>
+    </div>
+</div>
+<div class="container">
+
+    <!-- <section>
+        <iframe width="100%" height="437" src="{{ streamurl }}" scrolling="no" frameborder="0" style="border: 0px none transparent;"></iframe>
+      </section> -->
+
+    <section>
+        <a class="anchor" id="agenda"></a>
+        <div class="page-header">
+            <h3>Доклады</h3>
+        </div>
+
+        {{#talks}}
+        <div class="media" style="float: left; padding-right: 100px;">
+            <h5>
+                <span class="badge badge-info">{{ timing }}</span>
+                {{ talk }}
+            </h5>
+            <img class="pull-left img-rounded media-object" data-src="{{ photo }}" style="width: 92px; height: 92px;" src="{{ photo }}">
+            <div class="media-body">
+                <h5 class="media-heading">
+                    <a href="{{ url }}">{{ speaker }}</a>
+                </h5>
+
+                {{ description }}
+            </div>
+        </div>
+        {{/talks}}
+
+    </section>
+
+    <div style="clear: both; padding: 10px;"></div>
+
+    <section>
+        <a class="anchor" id="info"></a>
+        <div class="page-header">
+            <h3>Где</h3>
+        </div>
+        <div class="row">
+            <div class="span4">
+                <h4>{{ venue }}</h4>
+                <address>
+                    {{ venue-address }}
+                </address>
+            </div>
+
+            <!--
+            <div class="span8">
+                <h4>Карта</h4>
+                <div>
+                    <script type="text/javascript" charset="utf-8" src="{{ venue-map }}"></script>
+                </div>
+            </div>
+            -->
+        </div>
+    </section>
+</div>
+
+<footer>
+    <div class="container">
+        <p class="muted credit pull-right">&copy; {{ copyright }}</p>
+    </div>
+</footer>
+</body>
+</html>

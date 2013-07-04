@@ -1,24 +1,33 @@
+event: kiev::fprog
+date: 3 августа, наконец-то!
 
 
-event: kievfprog
-date: 3 августа 2013
+facebook: https://www.facebook.com/groups/kiev.fprog/
+twitter: https://twitter.com/search?q=%23kievfprog
+ical: https://www.facebook.com/ical/event.php?eid=209780979175410
+rsvp: https://www.facebook.com/events/209780979175410/
 
-facebook: https://www.facebook.com/groups/110675885697387
-twitter: '#kievfprog'
-rsvp:
-
-text: ololo
-streamurl: 1
+streamurl: none yet
 
 talks:
   - speaker: '@true_droid'
     talk: Elixir
+    timing: 11:00 — 11:40
+    url: https://twitter.com/true_droid
+    photo: https://secure.gravatar.com/avatar/96f31e49f44b5ba166999c4576c43c41?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
   - speaker: '@5HT'
     talk: Erlang PaaS
+    timing: 12:00 — 12:40
+    url: https://twitter.com/5HT
+    photo: https://secure.gravatar.com/avatar/d91a0ffee363be9c58e689fc7fd20599?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
   - speaker: '@kachayev'
     talk: CRDT
+    timing: 13:00 — 13:40
+    url: https://twitter.com/kachayev
+    photo: https://secure.gravatar.com/avatar/b9b7a5ffa24e2af6f877a7950461ba0f?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
 
 venue: Ciklum SkyPoint
-venue-address: Киев, Амосова 12, 20-ый этаж
+venue-address: Киев, Амосова 12, БЦ Горизонт Парк, дальняя башня, 20-ый этаж
+venue-map:
 
 copyright: 2013 @darkproger
