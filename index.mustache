@@ -25,16 +25,16 @@
     <div class="navbar-inner">
         <div class="container">
             <a class="brand" href="#registration"><strong>{{ event }}</strong></a>
-            <a href="{{ ical }}" class="btn"><i class="icon-calendar"></i></a> 
+            <div class="pull-right">
+                <a href="{{ ical }}" class="btn btn-info">ical</a> 
+                <a href="{{ facebook }}" class="btn btn-info">facebook</a>
+            </div>
             <!--
             <ul class="nav" id="main-menu-left">
                 <li><a href="#agenda">Доклады</a></li>
                 <li><a href="#info">Место проведения</a></li>
             </ul>
             -->
-            <div class="pull-right">
-                <a href="{{ facebook }}" class="social"><i class="facebook"></i></a>
-            </div>
         </div>
     </div>
 </div>
@@ -60,8 +60,8 @@
 
     <section>
         <a class="anchor" id="agenda"></a>
-        <div class="page-header">
-            <h3>Доклады</h3>
+        <div>
+            <h2>Доклады</h2>
         </div>
 
         {{#talks}}
@@ -87,8 +87,8 @@
 
     <section>
         <a class="anchor" id="info"></a>
-        <div class="page-header">
-            <h3>Где</h3>
+        <div>
+            <h2>Где</h2>
         </div>
         <div class="row">
             <div class="span4">
@@ -108,6 +108,33 @@
             -->
         </div>
     </section>
+
+    <section>
+        <a class="anchor" id="archive"></a>
+
+        <div class="row">
+            <div class="span12">
+                <h2>Прошедшие встречи</h2>
+                <div>
+                    <ul>
+                        <li><a href="http://dou.ua/calendar/3151/">Курсы Erlang от @5HT 13-14 апреля 2013</a></li>
+                        <li><a href="http://dou.ua/calendar/3068/">kiev::fprog 27 марта 2013</a></li>
+                        <li><a href="http://dou.ua/calendar/2513/">Erlang от @darkproger 14 ноября 2012</a></li>
+                        <li><a href="http://dou.ua/calendar/2265/">kiev::fprog 27 сентября 2012</a></li>
+                        <li><a href="http://dou.ua/calendar/2040/">kiev::fprog 21 июля 2012</a></li>
+                    </ul>
+                </div>
+
+                <h2>Функциональщики в других городах</h2>
+                <div>
+                    <a href="http://odhug.github.io/site/">Odessa Haskell User Group</a>
+                    <ul>
+                        <li>если есть еще, отзовитесь!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
 
 <footer>
@@ -116,6 +143,6 @@
     </div>
 </footer>
 
-  <script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-42239133-1', 'kievfprog.net');  ga('send', 'pageview');</script>
+  <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-42239133-1', 'kievfprog.net');  ga('send', 'pageview');</script>
 </body>
 </html>
