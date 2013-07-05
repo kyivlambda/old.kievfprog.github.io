@@ -15,20 +15,29 @@ talks:
     timing: 11:00 — 11:40
     url: https://twitter.com/true_droid
     photo: https://secure.gravatar.com/avatar/96f31e49f44b5ba166999c4576c43c41?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+
   - speaker: '@5HT'
     talk: Erlang PaaS
     timing: 12:00 — 12:40
     url: https://twitter.com/5HT
     photo: https://secure.gravatar.com/avatar/d91a0ffee363be9c58e689fc7fd20599?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+
   - speaker: '@kachayev'
     talk: CRDT
     timing: 13:00 — 13:40
     url: https://twitter.com/kachayev
     photo: https://secure.gravatar.com/avatar/b9b7a5ffa24e2af6f877a7950461ba0f?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-  - speaker: ''
-    talk: еще будет анонсирован
+
+  - speaker: Максим Харченко
+    talk: Erlang on Xen
     timing: 14:00 - 14:40
-    url:
+    url: http://github.com/maximk
+    photo: https://secure.gravatar.com/avatar/1338ea36e4b2725e7b7304bf17119b38?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+
+  - speaker: котик
+    talk: TBA / ваш доклад
+    timing: 15:00 - 15:40
+    url: http://twitter.com/dtrace_kitty
     photo: https://si0.twimg.com/profile_images/3239312258/b225bba2557973dd8daac7eaa5cb0475.jpeg
 
 venue: Ciklum SkyPoint
