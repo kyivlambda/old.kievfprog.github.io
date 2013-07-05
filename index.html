@@ -138,14 +138,32 @@
                 </address>
             </div>
 
-            <!--
             <div class="span8">
                 <h4>Карта</h4>
                 <div>
-                    <script type="text/javascript" charset="utf-8" src="None"></script>
+                    <div id="ymap" style="width: 450px; height: 350px;"></div>
+                    <script type="text/javascript">
+                    function domap(ymaps) {
+                        var map = new ymaps.Map("ymap", {
+                            center: [30.505920306884732, 50.42265149832428],
+                            zoom: 16,
+                            type: "yandex#map"
+                        });
+                        map.controls
+                            .add("zoomControl")
+                            .add("mapTools");
+                        map.geoObjects
+                            .add(new ymaps.Placemark([30.505920306884732, 50.42265149832428], {
+                                balloonContent: "Ciklum SkyPoint"
+                            }, {
+                                preset: "twirl#greenDotIcon"
+                            }));
+                    };
+                    </script>
+                    <script type="text/javascript" src="http://api-maps.yandex.ru/2.0-stable/?lang=en-US&coordorder=longlat&load=package.full&wizard=constructor&onload=domap"></script>
                 </div>
             </div>
-            -->
+
         </div>
     </section>
 
@@ -179,7 +197,7 @@
 
 <footer>
     <div class="container">
-        <p class="muted credit pull-right">&copy; 2013 @darkproger, powered by illumos, fastly and random hacks</p>
+        <p class="muted credit pull-right">&copy; 2013 @darkproger. site powered by illumos, fasdasastly and random hacks. maps by yandex.</p>
     </div>
 </footer>
 
