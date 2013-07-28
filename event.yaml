@@ -5,10 +5,12 @@ date: 3 августа, наконец-то!
 facebook: https://www.facebook.com/groups/kiev.fprog/
 twitter: https://twitter.com/search/realtime?q=%23kievfprog
 ical: https://www.facebook.com/ical/event.php?eid=209780979175410
-rsvp: https://www.facebook.com/events/209780979175410/
-rsvp1: https://docs.google.com/forms/d/1L0Aqs6GsgOMa-jXrJDNvLKPdTfKBmS3VnqijFLQmAqM/viewform
+#rsvp: https://www.facebook.com/events/209780979175410/
+#rsvp1: https://docs.google.com/forms/d/1L0Aqs6GsgOMa-jXrJDNvLKPdTfKBmS3VnqijFLQmAqM/viewform
+rsvp: false
+rsvp1: false
 
-streamurl: none yet
+streamurl: false
 
 non-finalized-timing: true
 talks:

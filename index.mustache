@@ -46,12 +46,19 @@
             <h3>{{ date }} </h3>
             <br/>
             <p>
+            {{#rsvp}}
                 <a href="{{ rsvp }}" class="btn btn-primary btn-large">Регистрация</a>
+            {{/rsvp}}
+            {{^rsvp}}
+                <a href="#" class="btn btn-primary btn-large disabled">Регистрация уже закрыта</a>
+            {{/rsvp}}
                 <a href="{{ twitter }}" class="btn btn-primary btn-large">#kievfprog</a>
             </p>
+            {{#rsvp1}}
             <p>
             <a href="{{ rsvp1 }}" class="btn btn-warning">Дополнительная регистрация</a>
             </p>
+            {{/rsvp1}}
             <!-- <iframe width="100%" height="400" src="{{ streamurl }}" scrolling="no" frameborder="0" style="border: 0px none transparent;"></iframe> -->
         </div>
     </div>
