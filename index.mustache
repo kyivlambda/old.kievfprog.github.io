@@ -26,7 +26,9 @@
         <div class="container">
             <a class="brand" href="#registration"><strong>{{ event }}</strong></a>
             <div class="pull-right">
+                {{#ical}}
                 <a href="{{ ical }}" class="btn btn-info">ical</a> 
+                {{/ical}}
                 <a href="{{ facebook }}" class="btn btn-info">facebook</a>
             </div>
             <!--
@@ -46,12 +48,14 @@
             <h3>{{ date }} </h3>
             <br/>
             <p>
+            {{^past}}
             {{#rsvp}}
                 <a href="{{ rsvp }}" class="btn btn-primary btn-large">Регистрация</a>
             {{/rsvp}}
             {{^rsvp}}
                 <a href="#" class="btn btn-primary btn-large disabled">Регистрация уже закрыта</a>
             {{/rsvp}}
+            {{/past}}
                 <a href="{{ twitter }}" class="btn btn-primary btn-large">#kievfprog</a>
             </p>
             {{#rsvp1}}
@@ -79,7 +83,7 @@
         <div class="media" style="float: left; width: 340px; padding-right: 10px;">
             <h5>
                 <span class="badge badge-info">{{ timing }}</span>
-                {{ talk }}
+                {{ talk }} 
             </h5>
             <img class="pull-left img-rounded media-object" data-src="{{ photo }}" style="width: 92px; height: 92px;" src="{{ photo }}">
             <div class="media-body">
@@ -88,6 +92,11 @@
                 </h5>
 
                 {{ description }}
+                {{#slides}}
+                <h6>
+                    <a href="{{ slides }}">Слайды</a>
+                </h6>
+                {{/slides}}
             </div>
         </div>
         {{/talks}}
@@ -95,6 +104,38 @@
     </section>
 
     <div style="clear: both; padding: 10px;"></div>
+
+    {{#display-materials}}
+    <section>
+        <a class="anchor" id="materials"></a>
+        <div>
+            <h2>Материалы</h2>
+        </div>
+
+        {{#materials}}
+        <div class="media" style="float: left; width: 340px; padding-right: 10px;">
+            <h5>
+                {{#url}}
+                <a href="{{ url }}">{{ title }}</a>
+                {{/url}}
+                {{^url}}{{ title }}{{/url}}
+            </h5>
+            {{#photo}}
+            <img class="pull-left img-rounded media-object" data-src="{{ photo }}" style="width: 92px; height: 92px;" src="{{ photo }}">
+            {{/photo}}
+            <div class="media-body">
+                <h5 class="media-heading">
+                    {{#author}}
+                    <a href="{{ author-url }}">{{ author }}</a>
+                    {{/author}}
+                </h5>
+            </div>
+        </div>
+        {{/materials}}
+    </section>
+
+    <div style="clear: both; padding: 10px;"></div>
+    {{/display-materials}}
 
     <section>
         <a class="anchor" id="info"></a>
@@ -162,7 +203,7 @@
                         <li><a href="http://lambda.dn.ua">Донецкий Лямбда-клуб</a></li>
                         <li><a href="https://groups.google.com/forum/?fromgroups#!forum/lispk">Kiev Lisp User Group</a></li>
                         <li><a href="https://groups.google.com/d/forum/erlang-in-ukraine">Erlang в Україні</a></li>
-                        <li>если есть еще, отправьте <a href="https://github.com/proger/kievfprog/blob/master/index.mustache#L147">пулл реквест</a>!</li>
+                        <li>если есть еще, отправьте <a href="https://github.com/proger/kievfprog/blob/master/index.mustache">пулл реквест</a>!</li>
                     </ul>
                 </div>
             </div>
