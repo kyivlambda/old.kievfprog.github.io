@@ -56,6 +56,7 @@ talks:
     timing: 16:00 - 16:40
     url: http://twitter.com/lambdamix
     photo: https://si0.twimg.com/profile_images/3395648752/e1739470c7c1bb346676f5f0717f06f0.png
+    slides: https://docs.google.com/a/wilab.org.ua/presentation/d/1i3ks3LCnLZS__CAgpOkAOegkMUEuDI37Zr03ycuiim8/present#slide=id.p
 
   - speaker: '@5HT'
     talk: Typed Erlang
