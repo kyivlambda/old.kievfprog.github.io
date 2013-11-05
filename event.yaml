@@ -21,10 +21,10 @@ talks:
     url: https://twitter.com/kachayev
     photo: https://secure.gravatar.com/avatar/b9b7a5ffa24e2af6f877a7950461ba0f?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
 
-  - speaker: 'Alexandr Pokutnik'
+  - speaker: '@pokutnik'
     talk: Elm
     timing: 12:00 — 12:20
-    url: https://www.facebook.com/pokutnik
+    url: https://twitter.com/pokutnik
     photo: https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/c41.63.259.259/s160x160/66596_1433235432643_7325878_n.jpg
 
   - speaker: Alexander Nemish
