@@ -1,89 +1,46 @@
 event: kiev::fprog
-date: 3 августа (уже состоялся)
+date: 16 ноября
 
 
 facebook: https://www.facebook.com/groups/kiev.fprog/
 twitter: https://twitter.com/search/realtime?q=%23kievfprog
-#ical: https://www.facebook.com/ical/event.php?eid=209780979175410
-#rsvp: https://www.facebook.com/events/209780979175410/
+ical: https://www.facebook.com/ical/event.php?eid=1427187537499479
+rsvp: https://www.facebook.com/events/1427187537499479/
 #rsvp1: https://docs.google.com/forms/d/1L0Aqs6GsgOMa-jXrJDNvLKPdTfKBmS3VnqijFLQmAqM/viewform
-past: true
-rsvp: false
+past: false
+#rsvp: false
 rsvp1: false
 
 streamurl: false
 
-non-finalized-timing: false
+non-finalized-timing: true
 talks:
-  - speaker: '@true_droid'
-    talk: Elixir
-    timing: 11:00 — 11:40
-    url: https://twitter.com/true_droid
-    photo: https://secure.gravatar.com/avatar/96f31e49f44b5ba166999c4576c43c41?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-    slides: http://alexeisholik.com/elixir-talk/
-
-  - speaker: '@5HT'
-    talk: Erlang PaaS
-    timing: 12:00 — 12:40
-    url: https://twitter.com/5HT
-    photo: https://secure.gravatar.com/avatar/d91a0ffee363be9c58e689fc7fd20599?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-    slides: http://slid.es/maximsokhatsky/erlang-paas
-
   - speaker: '@kachayev'
-    talk: Channels & Concurrency
-    timing: 13:00 — 13:40
+    talk: Erlang in production. Lessons learned
+    timing: 11:00 — 11:40
     url: https://twitter.com/kachayev
     photo: https://secure.gravatar.com/avatar/b9b7a5ffa24e2af6f877a7950461ba0f?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-    slides: https://speakerdeck.com/kachayev/channels-and-concurrency-go-clojure-erlang-haskell
 
-  - speaker: Максим Харченко
-    description: + Виктор Советов
-    talk: Erlang on Xen
-    timing: 14:00 - 14:40
-    url: http://erlangonxen.org
-    photo: https://secure.gravatar.com/avatar/1338ea36e4b2725e7b7304bf17119b38?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-    slides: http://www.slideshare.net/vsovietov/erlang-on-xenthemesfprog2013sh
+  - speaker: 'Alexandr Pokutnik'
+    talk: Elm
+    timing: 12:00 — 12:20
+    url: https://www.facebook.com/pokutnik
+    photo: https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/c41.63.259.259/s160x160/66596_1433235432643_7325878_n.jpg
 
-  - speaker: '@rssh1'
-    talk: Go / Scala
-    timing: 15:00 - 15:40
-    url: http://twitter.com/rssh1
-    photo: https://secure.gravatar.com/avatar/c87d4df27b1b9684cd84d143b069ec83?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-    slides: http://www.slideshare.net/rssh1/go-inscalarus
-
-  - speaker: '@lambdamix'
-    talk: Зависимые типы
-    timing: 16:00 - 16:40
-    url: http://twitter.com/lambdamix
-    photo: https://si0.twimg.com/profile_images/3395648752/e1739470c7c1bb346676f5f0717f06f0.png
-    slides: https://docs.google.com/a/wilab.org.ua/presentation/d/1i3ks3LCnLZS__CAgpOkAOegkMUEuDI37Zr03ycuiim8/present#slide=id.p
+  - speaker: Alexander Nemish
+    talk: JScala
+    timing: 12:40 - 13:20
+    url: https://www.facebook.com/anemish
+    photo: https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/c39.39.487.487/s160x160/946371_10151806146527384_734029411_n.jpg
 
   - speaker: '@5HT'
-    talk: Typed Erlang
-    timing: 16:50 - 17:10
-    url: http://twitter.com/5HT
+    talk: Erlang без хеш-таблиц
+    timing: 13:40 — 14:20
+    url: https://twitter.com/5HT
     photo: https://secure.gravatar.com/avatar/d91a0ffee363be9c58e689fc7fd20599?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
-    slides: http://slid.es/maximsokhatsky/typed-erlang
 
-display-materials: true
+display-materials: false
 materials:
-  - author: Ира Сухомлинова
-    photo: https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash4/c47.47.593.593/s160x160/1006202_1393336874217089_891662239_n.jpg
-    author-url: https://www.facebook.com/IrynaSukhomlynovaPhotography
-    title: Фотографии
-    url: http://irene.rilian.info/projects/18-conference-kievfprog-at-ciklum
-
-  - author: '@marikutsa'
-    photo: https://si0.twimg.com/profile_images/561261238/Picture0031-1.jpg
-    author-url: https://twitter.com/marikutsa
-    title: Фотографии
-    url: https://www.facebook.com/namdak.tonpa/media_set?set=a.10151864649963793.1073741832.762103792&type=1
-
-  - author:
-    photo: 
-    author-url:
-    title: Видео (скоро)
-    url:
 
 venue: Ciklum SkyPoint
 venue-address: Киев, Амосова 12, БЦ Горизонт Парк, дальняя башня, 20-ый этаж
