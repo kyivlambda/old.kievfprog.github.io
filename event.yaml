@@ -39,6 +39,13 @@ talks:
     url: https://twitter.com/5HT
     photo: https://secure.gravatar.com/avatar/d91a0ffee363be9c58e689fc7fd20599?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
 
+  - speaker: '@asolovyov'
+    talk: Clojure/CLJS в жизни с реальными людьми, ггг
+    timing: 14:40 - 15:20
+    url: https://twitter.com/asolovyov
+    photo: https://pbs.twimg.com/profile_images/378800000541660208/0b86a9e6a1f5d84ba08064e95a67c7c7.jpeg
+
+
 display-materials: false
 materials:
 
