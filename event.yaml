@@ -27,10 +27,10 @@ talks:
     url: https://twitter.com/pokutnik
     photo: https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/c41.63.259.259/s160x160/66596_1433235432643_7325878_n.jpg
 
-  - speaker: Alexander Nemish
+  - speaker: '@atlanter'
     talk: JScala
     timing: 12:40 - 13:20
-    url: https://www.facebook.com/anemish
+    url: https://twitter.com/atlanter
     photo: https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/c39.39.487.487/s160x160/946371_10151806146527384_734029411_n.jpg
 
   - speaker: '@5HT'
