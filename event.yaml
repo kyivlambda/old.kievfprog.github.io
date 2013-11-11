@@ -15,11 +15,11 @@ streamurl: false
 
 non-finalized-timing: true
 talks:
-  - speaker: '@kachayev'
-    talk: Erlang in production. Lessons learned
+  - speaker: '@atlanter'
+    talk: JScala
     timing: 11:00 — 11:40
-    url: https://twitter.com/kachayev
-    photo: https://secure.gravatar.com/avatar/b9b7a5ffa24e2af6f877a7950461ba0f?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+    url: https://twitter.com/atlanter
+    photo: https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/c39.39.487.487/s160x160/946371_10151806146527384_734029411_n.jpg
 
   - speaker: '@pokutnik'
     talk: Elm
@@ -27,11 +27,11 @@ talks:
     url: https://twitter.com/pokutnik
     photo: https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/c41.63.259.259/s160x160/66596_1433235432643_7325878_n.jpg
 
-  - speaker: '@atlanter'
-    talk: JScala
+  - speaker: '@kachayev'
+    talk: Erlang in production. Lessons learned
     timing: 12:40 - 13:20
-    url: https://twitter.com/atlanter
-    photo: https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/c39.39.487.487/s160x160/946371_10151806146527384_734029411_n.jpg
+    url: https://twitter.com/kachayev
+    photo: https://secure.gravatar.com/avatar/b9b7a5ffa24e2af6f877a7950461ba0f?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
 
   - speaker: '@5HT'
     talk: Erlang без хеш-таблиц
