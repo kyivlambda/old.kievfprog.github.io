@@ -5,13 +5,13 @@ date: 16 ноября
 facebook: https://www.facebook.com/groups/kiev.fprog/
 twitter: https://twitter.com/search/realtime?q=%23kievfprog
 ical: https://www.facebook.com/ical/event.php?eid=1427187537499479
-rsvp: https://www.facebook.com/events/1427187537499479/
-rsvp1: https://docs.google.com/a/wilab.org.ua/forms/d/1gjK2FTBcoDSFWbFoVn7_w9kowGrJwOCQcwmJp4WrysI/viewform
+#rsvp: https://www.facebook.com/events/1427187537499479/
+#rsvp1: https://docs.google.com/a/wilab.org.ua/forms/d/1gjK2FTBcoDSFWbFoVn7_w9kowGrJwOCQcwmJp4WrysI/viewform
 past: false
-#rsvp: false
-#rsvp1: false
+rsvp: false
+rsvp1: false
 
-streamurl: false
+streamurl: http://new.livestream.com/accounts/4893877/events/2550946
 
 non-finalized-timing: false
 talks:
