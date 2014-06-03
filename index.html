@@ -49,6 +49,14 @@
                 <a href="https://www.facebook.com/events/1489824581249853/" class="btn btn-primary btn-large">Регистрация</a>
                 <a href="https://twitter.com/search/realtime?q=%23kievfprog" class="btn btn-primary btn-large">#kievfprog</a>
             </p>
+            <p>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="GZSFFVKBWPWEC">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+            </p>
             <!-- <iframe width="100%" height="400" src="None" scrolling="no" frameborder="0" style="border: 0px none transparent;"></iframe> -->
         </div>
     </div>
@@ -106,12 +114,37 @@
         </div>
         <div class="row">
             <div class="span4">
-                <h4>Следите за новостями</h4>
+                <h4><a href="http://masterklass.ua/ru/page/contacts.html">Мастер Класс</a></h4>
                 <address>
-                    TBA
+                    Лаврская, 16А
                 </address>
             </div>
 
+            <div class="span8">
+                <h4>Карта</h4>
+                <div>
+                    <div id="ymap" style="width: 450px; height: 350px;"></div>
+                    <script type="text/javascript">
+                    function domap(ymaps) {
+                        var map = new ymaps.Map("ymap", {
+                            center: [30.555347, 50.432326],
+                            zoom: 16,
+                            type: "yandex#map"
+                        });
+                        map.controls
+                            .add("zoomControl")
+                            .add("mapTools");
+                        map.geoObjects
+                            .add(new ymaps.Placemark([30.555347, 50.432326], {
+                                balloonContent: "Мастер Класс"
+                            }, {
+                                preset: "twirl#greenDotIcon"
+                            }));
+                    };
+                    </script>
+                    <script type="text/javascript" src="http://api-maps.yandex.ru/2.0-stable/?lang=en-US&coordorder=longlat&load=package.full&wizard=constructor&onload=domap"></script>
+                </div>
+            </div>
 
         </div>
     </section>

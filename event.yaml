@@ -28,8 +28,9 @@ talks:
 display-materials: false
 materials:
 
-venue: Следите за новостями
-venue-address: TBA
-#venue-center: '[30.505920306884732, 50.42265149832428]'
+venue: Мастер Класс
+venue-url: http://masterklass.ua/ru/page/contacts.html
+venue-address: Лаврская, 16А
+venue-center: '[30.555347, 50.432326]'
 
 copyright: 2013-2014 @darkproger. site powered by github pages. maps by yandex.
