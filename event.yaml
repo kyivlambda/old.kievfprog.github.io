@@ -25,6 +25,12 @@ talks:
     url: https://twitter.com/shebang
     photo: https://pbs.twimg.com/profile_images/458731352758579200/TSideAqh.jpeg
 
+  - speaker: '@MAH3IOK'
+    talk: From Object Algebras to Finally Tagless Interpreters
+    timing: 14:00 — 14:40
+    url: https://twitter.com/MAH3IOK
+    photo: https://pbs.twimg.com/profile_images/3596208506/baed00c50df292fa0d0e7878b575233a_reasonably_small.jpeg
+
 display-materials: false
 materials:
 
