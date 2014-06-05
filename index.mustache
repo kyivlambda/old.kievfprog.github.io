@@ -89,12 +89,12 @@
 
         {{#talks}}
         <div class="media" style="float: left; width: 340px; padding-right: 10px;">
-            <h5>
+            <h5 class="pull-left" style="min-height: 40px;">
                 <span class="badge badge-info">{{ timing }}</span>
                 {{ talk }} 
             </h5>
             <img class="pull-left img-rounded media-object" data-src="{{ photo }}" style="width: 92px; height: 92px;" src="{{ photo }}">
-            <div class="media-body">
+            <div class="media-body pull-left">
                 <h5 class="media-heading">
                     <a href="{{ url }}">{{ speaker }}</a>
                 </h5>
@@ -121,7 +121,7 @@
         </div>
 
         {{#materials}}
-        <div class="media" style="float: left; width: 340px; padding-right: 10px;">
+        <div class="media" style="float: left; width: 380px; padding-right: 10px;">
             <h5>
                 {{#url}}
                 <a href="{{ url }}">{{ title }}</a>
