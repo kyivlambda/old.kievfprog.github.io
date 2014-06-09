@@ -31,6 +31,12 @@ talks:
     url: https://twitter.com/MAH3IOK
     photo: https://pbs.twimg.com/profile_images/3596208506/baed00c50df292fa0d0e7878b575233a_reasonably_small.jpeg
 
+  - speaker: '@dying_sphynx'
+    talk: 'Графы: функциональный подход'
+    timing: 15:00 — 15:40
+    url: https://twitter.com/dying_sphynx
+    photo: https://pbs.twimg.com/profile_images/563311908/f11.jpg
+
 display-materials: false
 materials:
 
