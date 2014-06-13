@@ -11,7 +11,7 @@ past: false
 
 streamurl:
 
-non-finalized-timing: true
+non-finalized-timing: false
 talks:
   - speaker: '@janstepien'
     talk: Migrating to Clojure - so much fn
@@ -21,19 +21,19 @@ talks:
 
   - speaker: '@shebang'
     talk: Extensible Effects in Haskell
-    timing: 13:00 — 13:40
+    timing: 12:45 — 13:30
     url: https://twitter.com/shebang
     photo: https://pbs.twimg.com/profile_images/458731352758579200/TSideAqh.jpeg
 
   - speaker: '@MAH3IOK'
     talk: From Object Algebras to Finally Tagless Interpreters
-    timing: 14:00 — 14:40
+    timing: 14:35 — 15:15
     url: https://twitter.com/MAH3IOK
     photo: https://pbs.twimg.com/profile_images/3596208506/baed00c50df292fa0d0e7878b575233a_reasonably_small.jpeg
 
   - speaker: '@dying_sphynx'
     talk: 'Графы: функциональный подход'
-    timing: 15:00 — 15:40
+    timing: 15:20 — 16:00
     url: https://twitter.com/dying_sphynx
     photo: https://pbs.twimg.com/profile_images/563311908/f11.jpg
 
