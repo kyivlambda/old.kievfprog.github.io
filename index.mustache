@@ -58,11 +58,13 @@
             {{/past}}
                 <a href="{{ twitter }}" class="btn btn-primary btn-large">#kievfprog</a>
             </p>
+            {{^past}}
             {{#rsvp1}}
             <p>
             <a href="{{ rsvp1 }}" class="btn btn-warning">Дополнительная регистрация</a>
             </p>
             {{/rsvp1}}
+            {{/past}}
             <p>
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                 <input type="hidden" name="cmd" value="_s-xclick">
