@@ -1,48 +1,42 @@
-event: kiev::fprog специальный выпуск
-date: 14 июня
+event: "#kievfprog clojure-style"
+date: 3 июля
 
 
 facebook: https://www.facebook.com/groups/kiev.fprog/
 twitter: https://twitter.com/search/realtime?q=%23kievfprog
-ical: https://www.facebook.com/ical/event.php?eid=1489824581249853
-rsvp: https://www.facebook.com/events/1489824581249853/
-rsvp1: https://docs.google.com/forms/d/1kSJ7jSzn6Y21ZIlG4ddg2wtY_gDUszmfgZ9bPIi2iuA/viewform?usp=send_form
+ical: https://www.facebook.com/ical/event.php?eid=1446332515624628
+rsvp: https://www.facebook.com/events/1446332515624628/
 past: true
 
 streamurl:
 
 non-finalized-timing: false
 talks:
-  - speaker: '@janstepien'
-    talk: Migrating to Clojure - so much fn
-    timing: 12:00 — 12:40
-    url: https://twitter.com/janstepien
-    photo: https://pbs.twimg.com/profile_images/1250399112/avatar.jpg
+  - speaker: '@mtrimpe'
+    talk: "Graphel: Functional approach to virtual interaction using Clojure and Datomic"
+    timing: 19:10 — 19:50
+    url: https://twitter.com/mtrimpe
+    photo: https://pbs.twimg.com/profile_images/438658309646585856/4XFmjk-y_400x400.jpeg
 
-  - speaker: '@shebang'
-    talk: Extensible Effects in Haskell
-    timing: 12:45 — 13:30
-    url: https://twitter.com/shebang
-    photo: https://pbs.twimg.com/profile_images/458731352758579200/TSideAqh.jpeg
+  - speaker: '@vseloved'
+    talk: Clojure features in Common Lisp
+    timing: 20:00 — 20:30
+    url: https://twitter.com/vseloved
+    photo: https://pbs.twimg.com/profile_images/68550770/pic_400x400.png
 
-  - speaker: '@MAH3IOK'
-    talk: From Object Algebras to Finally Tagless Interpreters
+  - speaker: '@kachayev'
+    talk: Deterministic Parallel and Distributed Programming with Clojure
     timing: 14:35 — 15:15
-    url: https://twitter.com/MAH3IOK
-    photo: https://pbs.twimg.com/profile_images/3596208506/baed00c50df292fa0d0e7878b575233a_reasonably_small.jpeg
-
-  - speaker: '@dying_sphynx'
-    talk: 'Графы: функциональный подход'
-    timing: 15:20 — 16:00
-    url: https://twitter.com/dying_sphynx
-    photo: https://pbs.twimg.com/profile_images/563311908/f11.jpg
+    url: https://twitter.com/kachayev
+    photo: https://pbs.twimg.com/profile_images/1365007209/DSC_5679_400x400.jpg
+    slides: https://speakerdeck.com/kachayev/deterministic-parallel-and-distributed-programming-with-clojure
 
 display-materials: false
 materials:
 
-venue: Мастер Класс
-venue-url: http://masterklass.ua/ru/page/contacts.html
-venue-address: Лаврская, 16А
-venue-center: '[30.555347, 50.432326]'
+venue: Ciklum SkyPoint
+venue-address: Киев, Амосова 12, БЦ Горизонт Парк, дальняя башня, 20-ый этаж
+venue-center: '[30.505920306884732, 50.42265149832428]'
+venue-url: https://www.facebook.com/media/set/?set=a.10150189684171883.327702.50593631882
 
 copyright: 2013-2014 @darkproger. site powered by github pages. maps by yandex.
