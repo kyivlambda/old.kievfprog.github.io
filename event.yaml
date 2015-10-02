@@ -1,35 +1,32 @@
-event: "#kievfprog clojure-style"
-date: 3 июля
+event: "#kievfprog 2015"
+date: 31 октября
 
 
 facebook: https://www.facebook.com/groups/kiev.fprog/
 twitter: https://twitter.com/search/realtime?q=%23kievfprog
-ical: https://www.facebook.com/ical/event.php?eid=1446332515624628
-rsvp: https://www.facebook.com/events/1446332515624628/
-past: true
+ical: https://www.facebook.com/ical/event.php?eid=1043526685681601
+rsvp: https://www.facebook.com/events/1043526685681601/
+past: false
 
 streamurl:
 
-non-finalized-timing: false
+non-finalized-timing: true
 talks:
-  - speaker: '@mtrimpe'
-    talk: "Graphel: Functional approach to virtual interaction using Clojure and Datomic"
-    timing: 19:10 — 19:50
-    url: https://twitter.com/mtrimpe
-    photo: https://pbs.twimg.com/profile_images/438658309646585856/4XFmjk-y_400x400.jpeg
+  - speaker: '@секрет'
+    talk: Что-то про микросервисы в Haskell
+    timing: 11:00
+    photo: http://assets.toptal.io/uploads/blog/category/logo/70/haskell.png
 
-  - speaker: '@vseloved'
-    talk: Clojure features in Common Lisp
-    timing: 20:00 — 20:30
-    url: https://twitter.com/vseloved
-    photo: https://pbs.twimg.com/profile_images/68550770/pic_400x400.png
+  - speaker: '@секрет'
+    talk: Что-то про Haskell
+    timing: 12:00
+    photo: http://i.stack.imgur.com/MAMOg.png
 
-  - speaker: '@kachayev'
-    talk: Deterministic Parallel and Distributed Programming with Clojure
-    timing: 14:35 — 15:15
-    url: https://twitter.com/kachayev
-    photo: https://pbs.twimg.com/profile_images/1365007209/DSC_5679_400x400.jpg
-    slides: https://speakerdeck.com/kachayev/deterministic-parallel-and-distributed-programming-with-clojure
+  - speaker: '@секрет'
+    talk: Что-то провокационное
+    timing: 13:00
+    photo: http://img2.wikia.nocookie.net/__cb20110201043740/cybernations/images/7/73/Trollface.png
+
 
 display-materials: false
 materials:
@@ -39,4 +36,4 @@ venue-address: Киев, Амосова 12, БЦ Горизонт Парк, да
 venue-center: '[30.505920306884732, 50.42265149832428]'
 venue-url: https://www.facebook.com/media/set/?set=a.10150189684171883.327702.50593631882
 
-copyright: 2013-2014 @darkproger. site powered by github pages. maps by yandex.
+copyright: 2013-2015 kievfprog fellows
