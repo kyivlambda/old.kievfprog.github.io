@@ -27,7 +27,7 @@
             <a class="brand" href="#registration"><strong>{{ event }}</strong></a>
             <div class="pull-right">
                 {{#ical}}
-                <a href="{{ ical }}" class="btn btn-info">ical</a> 
+                <a href="{{ ical }}" class="btn btn-info">ical</a>
                 {{/ical}}
                 <a href="{{ facebook }}" class="btn btn-info">facebook</a>
             </div>
@@ -65,14 +65,16 @@
             </p>
             {{/rsvp1}}
             {{/past}}
+            <!--
             <p>
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                 <input type="hidden" name="cmd" value="_s-xclick">
                 <input type="hidden" name="hosted_button_id" value="GZSFFVKBWPWEC">
-                <button type="submit" class="btn btn-info">Donate with PayPal</button> 
+                <button type="submit" class="btn btn-info">Donate with PayPal</button>
                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
             </form>
             </p>
+            -->
             <!-- <iframe width="100%" height="400" src="{{ streamurl }}" scrolling="no" frameborder="0" style="border: 0px none transparent;"></iframe> -->
         </div>
     </div>
@@ -93,7 +95,7 @@
         <div class="media" style="float: left; width: 340px; padding-right: 10px;">
             <h5 class="pull-left" style="min-height: 40px;">
                 <span class="badge badge-info">{{ timing }}</span>
-                {{ talk }} 
+                {{ talk }}
             </h5>
             <img class="pull-left img-rounded media-object" data-src="{{ photo }}" style="width: 92px; height: 92px;" src="{{ photo }}">
             <div class="media-body pull-left">

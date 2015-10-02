@@ -14,17 +14,17 @@ non-finalized-timing: true
 talks:
   - speaker: '@секрет'
     talk: Что-то про микросервисы в Haskell
-    timing: 11:00
+    timing: "11:00"
     photo: http://assets.toptal.io/uploads/blog/category/logo/70/haskell.png
 
   - speaker: '@секрет'
     talk: Что-то про Haskell
-    timing: 12:00
+    timing: "12:00"
     photo: http://i.stack.imgur.com/MAMOg.png
 
   - speaker: '@секрет'
     talk: Что-то провокационное
-    timing: 13:00
+    timing: "13:00"
     photo: http://img2.wikia.nocookie.net/__cb20110201043740/cybernations/images/7/73/Trollface.png
 
 
