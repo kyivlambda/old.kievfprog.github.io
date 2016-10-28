@@ -1,40 +1,24 @@
-event: "#kievfprog 2015"
-date: 31 октября
+event: "#kievfprog 2016"
+date: November 26
 
 
 facebook: https://www.facebook.com/groups/kiev.fprog/
-twitter: https://twitter.com/search/realtime?q=%23kievfprog
-ical: https://www.facebook.com/ical/event.php?eid=1043526685681601
-rsvp: https://www.facebook.com/events/1043526685681601/
-rsvp1: http://goo.gl/forms/6sGXNwgwbs
+twitter: https://twitter.com/kievfprog
+#ical:
+rsvp: http://2016.kievfprog.net
+#rsvp1:
 past: false
 
 streamurl:
 
-non-finalized-timing: true
+non-finalized-timing: false
 talks:
-  - speaker: '@секрет'
-    talk: Что-то про микросервисы в Haskell
-    timing: "11:00"
-    photo: http://assets.toptal.io/uploads/blog/category/logo/70/haskell.png
-
-  - speaker: '@секрет'
-    talk: Что-то про Haskell
-    timing: "12:00"
-    photo: http://www.cliparts101.com/files/848/40654A3F6FECA806F4974BEEE218964C/Greek_Lambda_4.png
-
-  - speaker: '@секрет'
-    talk: Что-то провокационное
-    timing: "13:00"
-    photo: http://img2.wikia.nocookie.net/__cb20110201043740/cybernations/images/7/73/Trollface.png
-
-
 display-materials: false
 materials:
 
-venue: Ciklum SkyPoint
-venue-address: Киев, Амосова 12, БЦ Горизонт Парк, дальняя башня, 20-ый этаж
-venue-center: '[30.505920306884732, 50.42265149832428]'
-venue-url: https://www.facebook.com/media/set/?set=a.10150189684171883.327702.50593631882
+venue:
+venue-address:
+venue-center:
+venue-url:
 
-copyright: 2013-2015 kievfprog fellows
+copyright: 2013-2016 kievfprog fellows
