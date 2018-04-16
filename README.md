@@ -6,6 +6,7 @@ More at:
 
 - [Eventbrite Registration](https://www.eventbrite.com/e/kievfprog-spring-2018-tickets-45015223746)
 - [Facebook Event Page](https://www.facebook.com/events/235497153676502/)
+- [Realtime Information from @kievfprog on Twitter](https://twitter.com/kievfprog)
 
 ## Talks
 
