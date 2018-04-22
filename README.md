@@ -32,6 +32,9 @@ Spoiler alert! If you are already committed to reading the "Type-Driven Developm
 
 I'll show how to build shared structures between frontend and backend in Haskell and how to write frontend separately staying within functional concepts.
 
+#### Bohdan Liesnikov @phittacus: Measuring Haskell Performance
+
+A lightning talk on performance measurements.
 
 # Follow Us
 
